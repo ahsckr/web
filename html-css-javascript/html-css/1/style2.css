@@ -1,0 +1,22 @@
+header{
+background-color: black;
+text-align: center; color: white;
+}
+nav{
+background-color: #cccccc;
+height: 300px; width: 30%;
+float: left; margin-left: 2%;
+}
+article{ background: #eeeeee;
+height: 300px; width: 65%;
+float: left; padding-left: 3%;
+}
+
+footer{ background-color: green; color: white; text-align: center;
+}
+
+
+
+a:visited{ color: red;}
+
+a:link{ color: yellow; }

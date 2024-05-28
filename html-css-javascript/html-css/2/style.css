@@ -1,0 +1,52 @@
+/* ziyaret edilmiş bağlantı rengi */
+a:visited {
+  color: green;
+}
+
+/* ziyaret edilmemiş bağlantı rengi */
+a:link {
+  color: red;
+}
+
+/* fare bağlantının üzerine geldiğinde */
+a:hover {
+  /*visibility: hidden;*/
+  /*display: none;*/
+  display: block;
+}
+
+
+div.divler {
+  background-color: yellow;
+}
+
+div#birinci {
+  <a href="https://kalite.izu.edu.tr/">kalite izu</a>background-color: red;
+  width: 40%;
+  height: auto;
+}
+
+div:hover {
+  scale: 0.5;
+}
+
+div#birinci {
+  width: 60%;
+  height: auto;
+  float: left;
+}
+
+button {
+  position: relative;
+  animation: hareket 5s infinite;
+}
+
+@keyframes hareket {
+  from {
+    left: 10px;
+  }
+
+  to {
+    left: 600px;
+  }
+}
